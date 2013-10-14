@@ -65,8 +65,7 @@ def setup_package():
 
     setup(
           install_requires=['numpy > 1.2.5',
-                            'scipy >= 0.7',
-                            'scikits.timeseries >= 0.91'],
+                            'scipy >= 0.7'],
           namespace_packages=['scikits'],
           packages=setuptools.find_packages(),
           test_suite = 'nose.collector',
